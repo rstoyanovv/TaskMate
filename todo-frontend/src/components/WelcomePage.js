@@ -45,7 +45,7 @@ export default function WelcomePage() {
                     </div>
 
                     <div className="col-md-6 d-flex justify-content-center align-items-center">
-                        <div style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
+                        <div id="headings" style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
                             <div className="first-heading-section">
                                 <a href="/api/create-task" id="welcome-header">Welcome to Task Mate</a>
                                 <h4>Your daily to-do organizer</h4>

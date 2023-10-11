@@ -30,3 +30,8 @@
     margin-bottom: 0.8rem;
     font-size: xx-large;
 }
+
+#headings {
+    text-align: center;
+    font-family: sans-serif;
+}
