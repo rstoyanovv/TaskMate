@@ -21,10 +21,12 @@ export default function Archive() {
     console.log(tasks);
 
     return (
-        <ul className="list-group">
-            {tasks.map((task) => (
-                <ArchivedTask key={task.id} task={task} />
-            ))}
-        </ul>
+        <div className="archive">
+            <ul className="list-group">
+                {tasks.map((task) => (
+                    <ArchivedTask key={task.id} task={task} />
+                ))}
+            </ul>
+        </div>
     );
 }
