@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/style.css';
 
+//View in more details is it needed 'isSubmitting' and the logic 
+//in last button submitting
+
 export default function CreateNewTask() {
   const [newTask, setNewTask] = useState('');
   const [newTitle, setNewTitle] = useState('');
@@ -36,7 +39,7 @@ export default function CreateNewTask() {
       {isSubmitted ?
         (<>
           <p>Task created successfully!</p>
-          <a href="/api/create-task" className="btn btn-primary">Add more tasks</a>
+          <a href="/api/create-task" className="btn btn-primary">Add a new task</a>
         </>)
         :
         (<form style={{ width: '40vw' }} onSubmit={handleSubmit}>

@@ -57,6 +57,9 @@ export default function TodoList() {
                             </ul>
                         </div>
                     </div>
+                    <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+                        <a href="/api/archived-tasks" class="btn btn-primary" style={{marginRight: '0.8rem'}}>See all archived tasks</a>
+                    </div>
                 </div>
             </div>
         </div>
